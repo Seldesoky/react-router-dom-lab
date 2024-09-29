@@ -66,3 +66,69 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* src/index.css */
+
+body {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+ul {
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
+li {
+  margin-right: 16px;
+}
+
+.mail-box {
+  border: 2px solid white;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label,
+button {
+  margin: 16px 0px;
+  font-weight: bold;
+}
+
+input,
+select,
+textarea {
+  padding: 8px;
+}
+
+button {
+  background-color: #535bf2;
+}
+
+.mail-box {
+  width: 150px;   
+  height: 150px;  
+  border: 1px solid #ccc; 
+  margin: 10px;   
+  display: flex;
+  align-items: center;  
+  justify-content: center;  
+  background-color: #f9f9f9; 
+  text-align: center; 
+}
+
+.mail-box a {
+  text-decoration: none; 
+  color: black; 
+}
